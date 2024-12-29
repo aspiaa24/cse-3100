@@ -1,0 +1,77 @@
+section.available-cats-container {
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    /* Removed the border and border-radius to make it look cleaner */
+  }
+  
+  section h2 {
+    font-size: 2.5rem; /* Increased the font size further */
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-align: left; /* Aligned the title to the left */
+  }
+  
+  .filters {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end; /* Aligned the filters to the right */
+    margin-bottom: 20px;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .select-breed,
+  .search-by-name {
+    flex: 0 0 180px; /* Made the input boxes smaller */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 0.9rem;
+  }
+  
+  .cat-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .cat-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .cat-image {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .cat-info {
+    text-align: center;
+    font-size: 0.9rem;
+  }
+  
+  .cat-name {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .cat-age,
+  .cat-breed {
+    font-size: 0.8rem;
+    margin: 2px 0;
+  }
+  

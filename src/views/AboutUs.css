@@ -1,0 +1,82 @@
+/* Updated design for a more professional feel */
+.about-us-section {
+    margin-top: 60px;
+    padding: 40px 20px;
+    background-color: #f4f7fa;  /* Light, clean background */
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .section-content {
+    margin-bottom: 40px;
+  }
+  
+  .section-subtitle {
+    font-size: 2rem; /* Larger subtitle for a professional look */
+    color: #333;
+    text-align: left;
+    margin-bottom: 15px;
+    font-weight: bold;
+  }
+  
+  .section-description {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.8;
+    text-align: left;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .team-images {
+    display: flex; 
+    justify-content: center; 
+    gap: 30px; 
+    margin-top: 30px;
+  }
+  
+  .team-member {
+    text-align: center;
+  }
+  
+  .team-image {
+    width: 180px;
+    height: 180px; 
+    object-fit: cover; 
+    border-radius: 50%;
+    border: 4px solid #fff; /* Added border to make images stand out */
+  }
+  
+  .team-name {
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .team-designation {
+    margin-top: 5px; 
+    font-size: 1rem; 
+    color: #666; 
+    font-style: italic; 
+  }
+  
+  @media (max-width: 768px) {
+    .about-us-section {
+      padding: 20px 15px;
+    }
+  
+    .section-subtitle {
+      font-size: 1.8rem;
+    }
+  
+    .section-description {
+      font-size: 1rem;
+    }
+  
+    .team-images {
+      flex-direction: column;
+      gap: 20px;
+    }
+  }
+  
